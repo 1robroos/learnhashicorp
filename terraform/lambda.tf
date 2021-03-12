@@ -1,17 +1,3 @@
-terraform {
-  required_providers {
-    aws = {
-      source = "hashicorp/aws"
-    }
-  }
-}
-
-provider "aws" {
-   region = "us-east-1"
-  shared_credentials_file = "/home/rob/.aws/credentials"
-  profile                 = "kfsoladmin"
-}
-
 resource "aws_lambda_function" "example" {
    function_name = "ServerlessExample"
 
