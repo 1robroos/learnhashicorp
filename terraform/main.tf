@@ -12,16 +12,6 @@ provider "aws" {
   profile                 = "kfsoladmin"
 }
 
-# resource "aws_s3_bucket" "tf-state-storage" {
-#     bucket = "terraform-state-storage-learnhashicorp"
-#     versioning {
-#       enabled = true
-#     }
-#     lifecycle {
-#       prevent_destroy = true
-#     }
-# }
-
 # Require TF version to be same as or greater than 0.12.13
 terraform {
   required_version = ">=0.12.13"
