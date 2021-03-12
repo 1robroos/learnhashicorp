@@ -12,6 +12,9 @@ resource "aws_lambda_function" "example" {
    runtime = "nodejs10.x"
 
    role = aws_iam_role.lambda_exec.arn
+    tags = {
+    Purpose = "lambda-learninghashicorp"
+  }
 }
 
  # IAM role which dictates what other AWS services the Lambda function
