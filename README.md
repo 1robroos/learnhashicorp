@@ -1,3 +1,7 @@
+[![Build Status](https://dev.azure.com/1robroos/learnhashicorp/_apis/build/status/1robroos.learnhashicorp?branchName=firsttest)](https://dev.azure.com/1robroos/learnhashicorp/_build/latest?definitionId=20&branchName=firsttest)
+
+https://dev.azure.com/1robroos/learnhashicorp/_apis/build/status/1robroos.learnhashicorp?branchName=firsttest
+
 # learnhashicorp
 https://learn.hashicorp.com/tutorials/terraform/lambda-api-gateway?in=terraform/aws
 ## test deployed lambda function
