@@ -6,11 +6,11 @@
 #   }
 # }
 
-provider "aws" {
-   region = "us-east-1"
-  shared_credentials_file = "/home/rob/.aws/credentials"
-  profile                 = "kfsoladmin"
-}
+# provider "aws" {
+#    region = "us-east-1"
+#   shared_credentials_file = "/home/rob/.aws/credentials"
+#   profile                 = "kfsoladmin"
+# }
 
 # Require TF version to be same as or greater than 0.12.13
 terraform {
